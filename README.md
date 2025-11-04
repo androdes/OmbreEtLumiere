@@ -141,15 +141,11 @@ où γ = 1/√(1 - v²/c²) est le facteur de Lorentz.
 Décomposons :
 u^μ u_μ = -(u⁰)² + (u¹)² + (u²)² + (u³)² = -c²
 
-java
-Copier le code
 
 Dans le référentiel propre (vitesse spatiale nulle) :
 u^μ = (c, 0, 0, 0)
 ⟹ -c² + 0 + 0 + 0 = -c² ✓
 
-yaml
-Copier le code
 
 **Conclusion** : Le "mouvement" dans l'espace-temps pour une particule massive est principalement temporel.
 
