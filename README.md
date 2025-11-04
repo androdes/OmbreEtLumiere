@@ -511,39 +511,7 @@ Pour éviter les confusions, la communauté physique devrait :
 
 ---
 
-## Références
 
-### Ouvrages de référence
-
-1. **Misner, C. W., Thorne, K. S., & Wheeler, J. A.** (1973). *Gravitation*. W. H. Freeman.
-    - Chapitre 2 : Foundations of Special Relativity
-    - Sections 2.1-2.6 : Géométrie de l'espace-temps
-
-2. **Wald, R. M.** (1984). *General Relativity*. University of Chicago Press.
-    - Chapitre 2 : Manifolds and Tensor Fields
-    - Section 2.2 : Vectors and Curves
-
-3. **Penrose, R.** (2004). *The Road to Reality*. Jonathan Cape.
-    - Chapitre 17 : Spacetime
-    - Section 17.5 : Timelike, spacelike, and null curves
-
-4. **Rindler, W.** (2006). *Relativity: Special, General, and Cosmological* (2nd ed.). Oxford University Press.
-    - Chapter 2 : Special Relativity
-    - Section 2.4 : The Light Cone
-
-### Articles techniques
-
-5. **Geroch, R.** (1978). *General Relativity from A to B*. University of Chicago Press.
-    - Discussion philosophique de la structure causale
-
-6. **Hawking, S. W., & Ellis, G. F. R.** (1973). *The Large Scale Structure of Space-Time*. Cambridge University Press.
-    - Chapitre 6 : Causal Structure
-    - Théorèmes sur les géodésiques nulles
-
-7. **Sachs, R. K., & Wu, H.** (1977). *General Relativity for Mathematicians*. Springer.
-    - Approche rigoureuse de la géométrie différentielle en RG
-
----
 
 ## Annexe : Notation et Conventions
 
@@ -567,139 +535,110 @@ Pour éviter les confusions, la communauté physique devrait :
 - Unités SI sauf mention contraire
 - c = 299 792 458 m/s (valeur exacte par définition du mètre)
 - Dans certaines sections : unités naturelles avec c = 1
-# 11. Principe (philosophique) de Cohérence-Limite
+## 11. Principe (philosophique) de Cohérence-Limite
 
-## 11.1 Fondement
+### 11.1 Fondement
 
-**Thèse** :  
+**Thèse :**  
 Toute forme d’existence matérielle repose sur un équilibre entre deux régimes extrêmes de cohérence géométrique :
-- le **régime lumineux** (*genre lumière*, \(ds^2 = 0\)), où la cohérence est parfaite mais atemporelle ;
-- le **régime gravitationnel extrême**, où la cohérence devient totale au point que la géométrie s’effondre sur elle-même.
 
-Entre ces deux limites, le réel se déploie comme **région stable de cohérence imparfaite**, c’est-à-dire **le domaine de l’existence**.
+- **Régime lumineux** : genre lumière (ds² = 0), cohérence parfaite mais atemporelle.
+- **Régime gravitationnel extrême** : cohérence totale, mais la géométrie s’effondre sur elle-même.
 
----
-
-## 11.2 Formulation géométrique
-
-Soit une particule de masse \(m > 0\), définie dans l’espace-temps \((M, g)\).
-
-Son existence est possible si et seulement si les deux conditions suivantes sont vérifiées :
-\[
-\begin{cases}
-ds^2 < 0 & \text{(trajectoire de genre temps)} \\
-\frac{\hbar}{mc} > \frac{2Gm}{c^2} & \text{(non-effondrement géométrique)}
-\end{cases}
-\]
-
-**Définition 11.1 (Domaine de support d’existence)**  
-Le domaine d’existence d’une particule est l’ensemble des configurations \((m, g)\) pour lesquelles :
-\[
-\frac{\hbar}{mc} > \frac{2Gm}{c^2}
-\]
-Cette inégalité exprime que la **longueur de Compton** (\(\lambda_C = \hbar/mc\)) reste supérieure au **rayon de Schwarzschild** (\(r_S = 2Gm/c^2\)).
-
-**Interprétation** :  
-La particule est alors stable dans la géométrie, distincte de son contenant, et donc **existe comme entité locale**.
+Entre ces deux limites, le réel se déploie comme **région stable de cohérence imparfaite**, c’est-à-dire le domaine de l’existence.
 
 ---
 
-## 11.3 Théorème fondamental
+### 11.2 Formulation géométrique
 
-**Théorème 11.1 (Principe de cohérence-limite)**  
+Soit une particule de masse m > 0, définie dans l’espace-temps (M, g).
+
+Son existence est possible si, et seulement si, les deux conditions suivantes sont vérifiées :
+
+1. ds² < 0  → trajectoire de genre temps
+2. ħ / (m c) > 2 G m / c²  → non-effondrement géométrique
+
+---
+
+**Définition 11.1 — Domaine de support d’existence**
+
+Le domaine d’existence d’une particule est l’ensemble des configurations (m, g) pour lesquelles :
+
+ħ / (m c) > 2 G m / c²
+
+Cette inégalité exprime que la longueur de Compton  
+λ_C = ħ / (m c)  
+reste supérieure au rayon de Schwarzschild  
+r_S = 2 G m / c².
+
+**Interprétation :**  
+La particule est alors stable dans la géométrie, distincte de son contenant, et donc existe comme entité locale.
+
+---
+
+### 11.3 Théorème fondamental
+
+**Théorème 11.1 — Principe de cohérence-limite**
+
 Les mêmes conditions géométriques qui rendent possible l’existence d’une particule contiennent aussi la condition de son impossibilité lorsque portées à leur limite.
 
-*Preuve* :
-1. Si \(m \to 0\), la longueur de Compton diverge (\(\lambda_C \to \infty\)), le temps propre s’annule (\(d\tau = 0\)) et la particule devient lumière : plus de durée, plus d’être.
-2. Si \(m \to m_P = \sqrt{\hbar c/G}\), alors \(\lambda_C = r_S\).  
-   La géométrie s’effondre localement : la particule devient indiscernable de son horizon.
-3. Dans les deux limites, la structure d’existence (temps propre fini) disparaît. ∎
+**Preuve :**
+
+- Si m → 0 :  
+  la longueur de Compton diverge (λ_C → ∞), le temps propre s’annule (dτ = 0) et la particule devient lumière — plus de durée, plus d’être.
+- Si m → m_P = √(ħ c / G) :  
+  λ_C = r_S, la géométrie s’effondre localement, la particule devient indiscernable de son horizon.  
+  Dans les deux limites, la structure d’existence (temps propre fini) disparaît. ∎
 
 ---
 
-## 11.4 Corollaire
+### 11.4 Corollaire
 
-**Corollaire 11.1 (Non-contenabilité ontologique)**  
+**Corollaire 11.1 — Non-contenabilité ontologique**
+
 Aucune entité physique ne peut porter une cohérence totale :  
 dès qu’elle atteint le degré de cohérence maximal (lumineuse ou gravitationnelle), elle cesse d’être distincte du monde.
 
-*Preuve* :  
+**Preuve :**
+
 Une entité massive courbe la géométrie qui la contient.  
-Si cette courbure atteint le point où l’extérieur n’existe plus (\(r_S \le \lambda_C\)), l’entité devient son propre contenant.  
+Si cette courbure atteint le point où l’extérieur n’existe plus (r_S ≥ λ_C),  
+l’entité devient son propre contenant.  
 Elle n’est plus observable comme objet, mais seulement comme région de l’espace-temps. ∎
 
 ---
 
-## 11.5 Interprétation ontologique
+### 11.5 Interprétation ontologique
 
-**Proposition 11.1**  
+**Proposition 11.1 — Équilibre de l’être**
+
 L’existence est un équilibre instable entre deux impossibilités :
-- l’impossibilité de la lumière pure (sans masse, sans durée) ;
-- l’impossibilité de la masse infinie (gravité absolue, effondrement).
 
-**Interprétation** :  
+1. L’impossibilité de la lumière pure (sans masse, sans durée).
+2. L’impossibilité de la masse infinie (gravité absolue, effondrement).
+
+**Interprétation :**  
 Le monde n’existe que parce que la cohérence n’est ni nulle ni totale.  
 Ce qui rend l’être possible — sa structuration géométrique — contient en germe la condition de son effacement.
 
 ---
 
-## 11.6 Conclusion
+### 11.6 Conclusion
 
-**Théorème 11.2 (Principe général d’existence)**  
+**Théorème 11.2 — Principe général d’existence**
+
 Toute entité physique ou géométrique n’est stable qu’entre deux effondrements :  
-celui du *trop peu* (absence de temps propre) et celui du *trop plein* (auto-contenance gravitationnelle).
+celui du **trop peu** (absence de temps propre) et celui du **trop plein** (auto-contenance gravitationnelle).
 
 Formellement :
-\[
-0 < m < m_P \quad \Longleftrightarrow \quad \text{Existence possible}
-\]
 
-**Corollaire 11.2**  
-Le réel est la région intermédiaire du possible :
-> **Ce qui rend possible l’être — la cohérence de l’espace-temps — est aussi ce qui, porté à son achèvement, le rend impossible.**
+0 < m < m_P ⇔ Existence possible
 
 ---
 
-## Références complémentaires
-### Section 11 — Principe de Cohérence-Limite
+**Corollaire 11.2 — Région du possible**
 
-1. **Planck, M.** (1899). *Über irreversible Strahlungsvorgänge*. Sitzungsberichte der Königlich-Preußischen Akademie der Wissenschaften zu Berlin.
-    - Introduction des constantes fondamentales \(c, G, \hbar, k_B\) et définition des échelles naturelles.
-    - Base conceptuelle de la masse de Planck \(m_P = \sqrt{\hbar c / G}\).
-
-2. **Wheeler, J. A.** (1967). *Geometrodynamics and the Issue of the Final State*.  
-   In: *Relativity, Groups and Topology* (eds. B. & C. DeWitt).
-    - Concept d’auto-contenance géométrique : la matière devient espace-temps.
-    - Notion de “geon” et de gravité comme structure auto-soutenue.
-
-3. **Sakharov, A. D.** (1967). *Vacuum quantum fluctuations in curved space and the theory of gravitation*. *Soviet Physics – Doklady*, 12(11), 1040–1042.
-    - Gravité interprétée comme effet d’élasticité du vide quantique.
-    - Fondement de l’idée d’une “émergence” mutuelle matière/géométrie.
-
-4. **Zel’dovich, Y. B. & Novikov, I. D.** (1971). *Relativistic Astrophysics, Volume 1: Stars and Relativity*.
-    - Étude du rapport entre la masse et le rayon critique (\(r_S = 2GM/c^2\)).
-    - Analyse du passage d’un objet matériel à un trou noir : effondrement géométrique.
-
-5. **Misner, C. W., Thorne, K. S., & Wheeler, J. A.** (1973). *Gravitation*. W. H. Freeman.
-    - Chapitre 33 : Échelles de Planck.
-    - Discussion de la limite de masse et de la “fin de la matière” dans le formalisme géométrique.
-
-6. **Penrose, R.** (1981). *Time Asymmetry and Quantum Gravity*. In *Quantum Gravity 2* (eds. Isham, Penrose & Sciama).
-    - Discussion du lien entre cohérence quantique, singularités et causalité.
-    - Notion d’effondrement objectif lié à la masse gravitationnelle.
-
-7. **Hawking, S. W.** (1975). *Particle creation by black holes*. *Communications in Mathematical Physics*, 43(3), 199–220.
-    - Mise en évidence de l’instabilité des horizons : limite thermodynamique de la masse.
-    - Point de contact entre quantification du champ et effondrement géométrique.
-
-8. **Bardeen, J. M., Carter, B., & Hawking, S. W.** (1973). *The Four Laws of Black Hole Mechanics*. *Communications in Mathematical Physics*, 31(2), 161–170.
-    - Formalisation thermodynamique de la limite de masse.
-    - Identification de l’irréversibilité géométrique (analogue de la seconde loi).
-
-9. **Padmanabhan, T.** (2010). *Gravitation: Foundations and Frontiers*. Cambridge University Press.
-    - Chapitre 9 : Les échelles de Planck comme limite de la physique locale.
-    - Perspective moderne sur la dualité entre émergence et effondrement.
-
-10. **Rovelli, C.** (2018). *The Order of Time*. Riverhead Books.
-    - Interprétation conceptuelle : le temps comme phénomène relationnel limité par la cohérence géométrique.
-    - Lecture philosophique compatible avec le principe de cohérence-limite.
+Le réel est la région intermédiaire du possible :  
+ce qui rend possible l’être — la cohérence de l’espace-temps —  
+est aussi ce qui, porté à son achèvement, le rend impossible.
+---
