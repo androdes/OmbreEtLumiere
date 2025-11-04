@@ -245,8 +245,7 @@ Pour toute particule :
 **Cas 1 : Particule massive (m > 0)**
 E = γmc² où γ = 1/√(1 - v²/c²)
 
-markdown
-Copier le code
+
 
 Quand v → c :
 - γ → ∞
@@ -258,8 +257,7 @@ E = pc
 p = E/c
 v = c (automatiquement)
 
-markdown
-Copier le code
+
 
 **Aucune accélération requise** : le photon est "né" à c.
 
@@ -332,71 +330,68 @@ Notre formulation reste valide :
 Le propagateur **relie causalement** A et B. Ce n'est pas un "photon qui voyage", c'est une amplitude de transition entre deux événements.
 
 La vision géométrique est compatible avec QED.
+## 7bis. Limite de Masse et Arrêt du Temps Propre
 
-## 7 bis. Limite de Masse et Arrêt du Temps Propre
+### 7bis.1 Définition (Rayon critique)
 
-### 7bis.1 Définition
+Le rayon de Schwarzschild associé à une masse m est :
 
-Soit une particule de masse \(m > 0\) confinée dans un rayon \(R\).  
-Lorsque la concentration d’énergie dépasse un seuil critique, la courbure qu’elle engendre devient telle que le temps propre s’annule localement.
+R_s = 2 * G * m / c²
 
-**Définition 7bis.1 (Rayon critique)**  
-Le rayon de Schwarzschild associé à une masse \(m\) est :
-\[
-R_s = \frac{2Gm}{c^2}
-\]
-
-La particule devient géométriquement instable lorsque \(R \leq R_s\).
+La particule devient **géométriquement instable** lorsque R ≤ R_s.
 
 ---
 
 ### 7bis.2 Relation avec la mécanique quantique
 
 Toute particule quantique possède une **longueur de Compton** :
-\[
-\lambda_C = \frac{\hbar}{mc}
-\]
 
-**Condition d’existence quantique** :
-\[
-\lambda_C > R_s
-\]
+λ_C = ħ / (m * c)
 
-Autrement dit, la particule ne peut exister comme excitation localisée que si sa longueur de Compton dépasse son rayon gravitationnel.
+**Condition d’existence quantique :**
+
+λ_C > R_s
+
+Autrement dit, la particule ne peut exister comme **excitation localisée**
+que si sa longueur de Compton dépasse son rayon gravitationnel.
 
 ---
 
 ### 7bis.3 Masse de Planck et effondrement géométrique
 
 En égalant les deux échelles :
-\[
-\frac{\hbar}{mc} = \frac{2Gm}{c^2}
-\Rightarrow m = \sqrt{\frac{\hbar c}{2G}} \approx 10^{-8}\ \text{kg}
-\]
 
-Cette valeur définit la **masse de Planck** \(m_P\).  
-Au-delà de cette masse, la notion de particule localisée perd son sens : la courbure ne peut plus être contenue.
+ħ / (m * c) = 2 * G * m / c²
+
+on obtient :
+
+m = √(ħ * c / (2 * G)) ≈ 1 × 10⁻⁸ kg
+
+Cette valeur définit la **masse de Planck** (m_P).  
+Au-delà de cette masse, la notion de particule localisée perd son sens :  
+la courbure ne peut plus être contenue dans la structure de l’espace-temps.
 
 ---
 
 ### 7bis.4 Interprétation géométrique
 
-**Théorème 7bis.1 (Limite géométrique de la masse)**  
-Toute particule massive admet un seuil \(m_P\) tel que :
+**Théorème 7bis.1 — Limite géométrique de la masse**
 
-\[
-m < m_P \Rightarrow d\tau^2 > 0 \quad \text{(existence possible)}
-\]
-\[
-m \ge m_P \Rightarrow d\tau^2 \to 0 \quad \text{(effondrement géométrique)}
-\]
+Toute particule massive admet un seuil m_P tel que :
 
-*Preuve* :
-1. Pour \(m < m_P\), \(\lambda_C > R_s\), la géométrie locale reste définie.
-2. Pour \(m = m_P\), \(\lambda_C = R_s\), le temps propre s’annule à la limite.
-3. Pour \(m > m_P\), aucune structure géométrique stable n’est possible. ∎
+m < m_P  →  dτ² > 0  
+→ *Existence possible : géométrie stable, temps propre réel.*
+
+m ≥ m_P  →  dτ² → 0  
+→ *Effondrement géométrique : disparition du temps propre.*
 
 ---
+
+**Preuve :**
+
+1. Pour m < m_P, la condition λ_C > R_s garantit une géométrie locale définie.
+2. Pour m = m_P, λ_C = R_s, le temps propre s’annule à la limite.
+3. Pour m > m_P, aucune structure géométrique stable n’est possible. ∎
 
 ### 7bis.5 Corollaire : arrêt du temps propre
 
