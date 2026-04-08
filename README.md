@@ -63,8 +63,6 @@ avec la contrainte : **v_x² + v_y² + v_z² = c²**
 -c²dt² + dx² + dy² + dz² = 0
 ⟹ (dx/dt)² + (dy/dt)² + (dz/dt)² = c²
 
-markdown
-Copier le code
 Avec ẍ^μ = 0, les solutions sont linéaires. ∎
 
 ### 2.2 Quadri-impulsion photonique
