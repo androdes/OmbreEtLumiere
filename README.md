@@ -423,6 +423,20 @@ Cette conjecture n'est pas invérifiable par défaut de formulation, mais par co
 
 L'invérifiabilité n'est donc pas ici un aveu de faiblesse mais une conséquence du Théorème 1. Une conjecture sur la limite de l'observation ne peut pas être testée depuis l'intérieur du domaine observable.
 
+11.6 Formulation conceptuelle
+
+La structure nulle est ce à l'intérieur de quoi il y a de la durée. Ce qui dure n'est pas la structure ; ce qui est la structure ne dure pas.
+
+Mais cette dichotomie vaut pour les constituants, non pour ce qu'ils composent. Deux géodésiques nulles non colinéaires forment un système dont la quadri-impulsion totale est de genre temps : le système possède une masse, un centre de masse, une horloge. Rien n'a été ajouté — ni matière, ni substance — que du désaccord entre des directions. Une cavité de parois parfaitement réfléchissantes contenant un champ électromagnétique pèse davantage que la même cavité vide. Un proton doit l'essentiel de sa masse au confinement de ses gluons, qui n'en ont aucune.
+
+La durée n'est donc pas une propriété que les choses possèdent, mais un effet de configuration. Elle ne se trouve pas dans les éléments ; elle naît de ce qu'ils sont plusieurs et qu'ils ne pointent pas dans la même direction.
+
+Un observateur est ce qui se tient à l'intérieur d'une géométrie causale sans se confondre avec elle : ni en étant la structure, ni en s'en refermant une autour de soi. Il n'est pas d'une autre nature que ce qui ne dure pas — il en est un arrangement.
+
+Le réel se déploie entre deux façons de devenir une structure plutôt qu'un observateur.
+
+Rien de ce qui dure ne tient sa durée de lui-même.
+
 ---
 
 
