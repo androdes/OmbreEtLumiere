@@ -417,13 +417,11 @@ Par précaution explicite :
 3. Elle ne dit pas que m_P borne l'existence — m_P borne la localisabilité d'une excitation élémentaire.
 4. Elle ne constitue pas un résultat de physique, mais une lecture des résultats de la Partie I.
 
-### 11.5 Formulation conceptuelle
+### 11.5 — Statut épistémique de la conjecture
 
-La structure nulle est ce à l'intérieur de quoi il y a de la durée. Ce qui dure n'est pas la structure ; ce qui est la structure ne dure pas.
+Cette conjecture n'est pas invérifiable par défaut de formulation, mais par construction. Elle porte sur la frontière entre être un observateur et être une structure causale ; or vérifier suppose un observateur. Toute position d'où l'on pourrait constater le franchissement est une position où l'on ne constate plus rien.
 
-Un observateur est donc ce qui se tient à l'intérieur d'une géométrie causale sans se confondre avec elle — ni en étant la structure, ni en s'en refermant une autour de soi.
-
-> Le réel se déploie entre deux façons de devenir une structure plutôt qu'un observateur.
+L'invérifiabilité n'est donc pas ici un aveu de faiblesse mais une conséquence du Théorème 1. Une conjecture sur la limite de l'observation ne peut pas être testée depuis l'intérieur du domaine observable.
 
 ---
 
